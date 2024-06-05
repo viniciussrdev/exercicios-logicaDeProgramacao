@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Define que a página deve ser exibida de acordo com a largura da tela do dispositivo e ajusta o zoom inicial para 1.0 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Preconexão para acelerar o carregamento de fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- Preconexão com credenciais para fontes do Google (requerida para fontes hospedadas no Google) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Importa as fontes "Chakra Petch" e "Inter" do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Link para o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Sorteador de números</title>
+</head>
+<body>
+    <!-- Container principal que contém todos os elementos da página -->
+    <div class="container">
+        <div class="container__conteudo">
+            <div class="container__informacoes">
+                <!-- Título principal do aplicativo -->
+                <div class="container__texto">
+                    <h1>Sorteador<span class="container__texto-azul"> de números</span></h1>
+
+                    <!-- Campo para entrada da quantidade de números a serem sorteados -->
+                    <div class="container__campo">
+                        <label class="texto__paragrafo">Quantidade de números</label>
+                        <input class="container__input" id="quantidade" type="number" min="1">
+                    </div>
+                    
+                    <!-- Campo para entrada do número inicial do intervalo -->
+                    <div class="container__campo">
+                        <label class="texto__paragrafo">Do número</label>
+                        <input class="container__input" id="de" type="number" min="1">
+                    </div>
+                    
+                    <!-- Campo para entrada do número final do intervalo -->
+                    <div class="container__campo">
+                        <label class="texto__paragrafo">Até o número</label>
+                        <input class="container__input" id="ate" type="number" min="1">
+                    </div>
+                </div>
+                
+                <!-- Botões para sortear números e reiniciar o formulário -->
+                <div class="chute container__botoes">
+                    <button onclick="sortear()" id="btn-sortear" class="container__botao">Sortear</button>
+                    <button onclick="reiniciar()" id="btn-reiniciar" class="container__botao-desabilitado">Reiniciar</button>
+                </div>
+
+                <!-- Área para exibir os números sorteados -->
+                <div class="container__texto" id="resultado">
+                    <label class="texto__paragrafo">Números sorteados: nenhum até agora</label>
+                </div>
+            </div>
+
+            <!-- Imagem ilustrativa na página -->
+            <img src="./img/ia.png" alt="Uma pessoa com capacete de astronauta" class="container__imagem-pessoa" />
+        </div>
+    </div>
+
+    <!-- Link para o arquivo JavaScript -->
+    <script src="app.js" defer></script>
+</body>
+</html>
