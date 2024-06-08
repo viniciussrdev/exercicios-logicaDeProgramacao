@@ -20,10 +20,15 @@ Cada pasta contém os arquivos necessários para resolver o respectivo exercíci
 ## Exercícios
 
 ### 01. Sorteador de Números
-Sorteador de números onde o usuário pode especificar a quantidade de números a serem sorteados e o intervalo de valores.
+Este exercício é um sorteador de números onde o usuário pode especificar a quantidade de números a serem sorteados e o intervalo de valores.
 
-### ...
-Conforme os demais exercícios forem resolvidos, serão adicionados aqui.
+### 02. AluGames
+Este exercício simula um aluguel de games, AluGames, onde o usuário receberá a indicação visual se um jogo está alugado ou não.
+
+### 03. Carrinho de Compras
+Este exercício é uma aplicação web simples de carrinho de compras, onde é possível adicionar produtos ao carrinho, visualizar a lista de produtos e o valor total da compra, além de limpar o carrinho. 
+
+### ... (Adicionarei conforme for solucionando os exercícios)
 
 ## Como Usar
 
