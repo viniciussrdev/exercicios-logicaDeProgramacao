@@ -1,0 +1,28 @@
+/* Reset de margens e bordas */
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Remover estilos padrão da lista */
+ul {
+    list-style: none;
+    margin-block: 0;
+    padding-inline: 0;
+}
+
+/* Estilizar links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+/* Garantir que imagens sejam exibidas como blocos */
+img {
+    display: block;
+}

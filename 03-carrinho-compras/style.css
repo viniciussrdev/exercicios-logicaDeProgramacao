@@ -1,0 +1,257 @@
+/* Reset básico de margens, paddings e box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo geral do corpo da página */
+body {
+  min-height: 100vh;
+  height: auto;
+  background: linear-gradient(to bottom,
+      #01080E 10%,
+      #FFF 10%,
+      #FFF 90%,
+      #01080E 90%);
+  padding: 7vh 8vw 5vh;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}
+
+/* Reset de estilo padrão para botões */
+button {
+  background: inherit;
+  color: inherit;
+  border: 0;
+}
+
+/* Reset de estilo padrão para selects */
+select {
+  appearance: none;
+}
+
+/* Remove botões de incremento/decremento nos campos numéricos no Chrome */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Estilo para os campos numéricos */
+input[type="number"] {
+    appearance: textfield;
+}
+
+/* Estilo para textos médios azuis */
+.texto-medio-azul {
+  color: var(--Light-Blue, #1875E8);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 1.65rem */
+}
+
+/* Estilo principal da seção de conteúdo */
+.conteudo-principal {
+  filter: drop-shadow(0px 0px 70px rgba(2, 189, 255, 0.40));
+  min-height: 100%;
+  padding: 5rem 6.5rem;
+  
+  display: grid;
+  grid-template-columns: 1.375fr 1fr;
+  column-gap: 5rem;
+
+  background: white url('./assets/oculos.png') no-repeat bottom left;
+  background-size: auto 40%;
+
+  position: relative;
+  background-position: left bottom -40px;
+}
+
+/* Estilo do grafismo azul */
+.grafismo-azul {
+  position: absolute;
+  width: 31.9375rem;
+  height: 2.0625rem;
+  background-image: url('./assets/grafismo-azul.svg');
+  top: -1rem;
+}
+
+/* Estilo do título principal */
+.titulo {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 2.5rem;
+}
+
+/* Estilo para textos azuis */
+.texto-azul {
+  color: #1875E8;
+}
+
+/* Estilo do formulário */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+/* Estilo para grupos de campos no formulário */
+.formulario .campo-grupo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+/* Estilo do campo de seleção de produtos */
+.produto-input {
+  width: 24.75rem;
+  height: 3.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--Light-Blue, #1875E8);
+
+  color: var(--Void, #01080E);
+  font-family: Inter;
+  font-size: 1.3125rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 110%;
+  
+  background: url('./assets/arrow-down.svg') no-repeat right 1rem top 50%;
+}
+
+/* Estilo para a parte inferior do formulário */
+.formulario > .parte-inferior {
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+/* Estilo do campo de entrada de quantidade */
+.quantidade-input {
+  display: flex;
+  height: 3.5rem;
+  padding: 1rem;
+  width: 4.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--Light-Blue, #1875E8);
+
+  color: var(--Void, #01080E);
+  font-family: Inter;
+  font-size: 1.3125rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+/* Estilo do contêiner para os botões do formulário */
+.botoes-wrapper {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+/* Estilo base para os botões do formulário */
+.botao-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  height: 3.25rem;
+  padding: 1rem 1.5rem;
+  gap: 0.625rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+/* Estilo do botão "Adicionar" */
+.botao-adicionar {
+  background: var(--Light-Blue, #1875E8);
+  box-shadow: 0px 0px 20px 0px rgba(24, 117, 232, 0.50);
+
+  color: var(--Branco, #FFF);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Estilo do botão "Limpar" */
+.botao-limpar {
+  border-radius: 1rem;
+  background: var(--Void, #01080E);
+  box-shadow: 0px 0px 20px 0px rgba(1, 8, 14, 0.50);
+
+  color: var(--Branco, #FFF);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Estilo da seção do carrinho */
+.carrinho {
+  display: flex;
+  width: 24rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+/* Estilo do contêiner para o título do carrinho */
+.titulo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Estilo do título do carrinho */
+.carrinho__titulo {
+  color: var(--Light-Blue, #1875E8);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 1.65rem */
+}
+
+/* Estilo da lista de produtos no carrinho */
+.carrinho__produtos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+/* Estilo de cada produto na lista do carrinho */
+.carrinho__produtos__produto {
+  font-size: 1.3125rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 110%; /* 1.44375rem */
+}
+
+/* Estilo da divisória horizontal */
+.divisoria {
+  width: 24rem;
+  height: 0.0625rem;
+  background: #000;
+}
+
+/* Estilo do texto de total do carrinho */
+.carrinho__total {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 110%; /* 2.475rem */
+}
+
+/* Padding extra na seção de adicionar produto */
+.adicionar-produto {
+  padding-bottom: 180px;
+}
