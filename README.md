@@ -28,6 +28,9 @@ Este exercício simula um aluguel de games, AluGames, onde o usuário receberá 
 ### 03. Carrinho de Compras
 Este exercício é uma aplicação web simples de carrinho de compras, onde é possível adicionar produtos ao carrinho, visualizar a lista de produtos e o valor total da compra, além de limpar o carrinho. 
 
+### 04. Sistema e-Ticket
+ste exercício é um sistema de compra de ingressos online, onde os usuários podem selecionar o tipo de ingresso, especificar a quantidade desejada e efetuar a compra. O sistema também exibe a quantidade disponível de cada tipo de ingresso. 
+
 ### ... (Adicionarei conforme for solucionando os exercícios)
 
 ## Como Usar
@@ -49,6 +52,6 @@ Este exercício é uma aplicação web simples de carrinho de compras, onde é p
 - JavaScript
 - [Outras tecnologias específicas de cada exercício serão adicionadas aqui]
 
-## Contribuição
+## Créditos
 
-Esse projeto é a reprodução de uma aula de um curso da Alura.
+Reprodução de um curso da Alura.
