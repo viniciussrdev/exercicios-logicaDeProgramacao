@@ -20,10 +20,18 @@ Cada pasta contém os arquivos necessários para resolver o respectivo exercíci
 ## Exercícios
 
 ### 01. Sorteador de Números
-Sorteador de números onde o usuário pode especificar a quantidade de números a serem sorteados e o intervalo de valores.
+Este exercício é um sorteador de números onde o usuário pode especificar a quantidade de números a serem sorteados e o intervalo de valores.
 
-### ...
-Conforme os demais exercícios forem resolvidos, serão adicionados aqui.
+### 02. AluGames
+Este exercício simula um aluguel de games, AluGames, onde o usuário receberá a indicação visual se um jogo está alugado ou não.
+
+### 03. Carrinho de Compras
+Este exercício é uma aplicação web simples de carrinho de compras, onde é possível adicionar produtos ao carrinho, visualizar a lista de produtos e o valor total da compra, além de limpar o carrinho. 
+
+### 04. Sistema e-Ticket
+ste exercício é um sistema de compra de ingressos online, onde os usuários podem selecionar o tipo de ingresso, especificar a quantidade desejada e efetuar a compra. O sistema também exibe a quantidade disponível de cada tipo de ingresso. 
+
+### ... (Adicionarei conforme for solucionando os exercícios)
 
 ## Como Usar
 
@@ -44,6 +52,6 @@ Conforme os demais exercícios forem resolvidos, serão adicionados aqui.
 - JavaScript
 - [Outras tecnologias específicas de cada exercício serão adicionadas aqui]
 
-## Contribuição
+## Créditos
 
-Esse projeto é a reprodução de uma aula de um curso da Alura.
+Reprodução de um curso da Alura.
