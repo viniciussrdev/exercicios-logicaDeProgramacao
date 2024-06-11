@@ -1,0 +1,154 @@
+/* Estilização do corpo da página com gradiente e cor do texto */
+body {
+    width: 1440px;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(1, 8, 14, 1) 1%, rgba(4, 24, 50, 1) 39%, rgba(1, 8, 14, 1) 88%);
+    margin: 5% auto;
+    color: #fff;
+}
+
+/* Estilização do cabeçalho */
+header {
+    width: 1200px;
+    margin: 2rem auto;
+}
+
+/* Estilização da logo dentro do cabeçalho */
+header .logo {
+    width: 196.8px;
+    padding-left: 2rem;
+}
+
+/* Estilização do container principal */
+main.container {
+    width: 1200px;
+    height: auto;
+    border: 2px solid #00F4BF;
+    margin: 0 auto;
+    padding: 4.5rem 6.38rem;
+    background-image: url('../assets/PNG/Imagem\ com\ borda.png');
+    background-size: cover;
+    position: relative;
+}
+
+/* Estilização do elemento gráfico decorativo */
+main.container .grafismo {
+    background: url('../assets/SVG/Grafismo\ verde.svg');
+    width: 31.9375rem;
+    height: 2.0625rem;
+    position: absolute;
+    top: -19px;
+    left: -2px;
+}
+
+/* Estilização do título principal */
+main.container h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 5rem;
+    line-height: 110%;
+}
+
+/* Estilização da palavra "INGRESSOS" no título */
+main.container h1 span {
+    color: #1875E8;
+}
+
+/* Estilização do formulário */
+form {
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+    margin: 2.5rem 0;
+}
+
+/* Estilização dos grupos de entrada do formulário */
+form .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Estilização dos campos de entrada e seleção do formulário */
+form .input-group select,
+form .input-group input {
+    background: none;
+    color: white;
+    border: 1px solid #00F4BF;
+    border-radius: .5rem;
+    height: 3.5rem;
+    padding: .5rem 1rem;
+    font-size: 1.3rem;
+}
+
+/* Estilização específica do campo de seleção do formulário */
+form .input-group select {
+    width: 24.75rem;
+    appearance: none;
+    background: url('../assets/PNG/Arrow\ down.png') no-repeat right 1rem top 50%;
+    color: black;
+    background-color: white;
+}
+
+/* Estilização específica do campo de entrada numérica */
+form .input-group input {
+    width: 60px;
+}
+
+/* Estilização do placeholder do campo numérico */
+form .input-group input::placeholder {
+    text-align: center;
+}
+
+/* Estilização do botão de compra */
+form button {
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    background-color: #1875E8;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    width: 13rem;
+    box-shadow: 0px 0px 20px 0px rgba(24, 117, 232, 0.50);
+    cursor: pointer;
+}
+
+/* Estilização da imagem de hachuras */
+.hachuras {
+    margin: 5.19rem 0;
+}
+
+/* Estilização da seção que contém a lista de ingressos */
+.container section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+/* Estilização do subtítulo */
+.container section h2 {
+    font-size: 2rem;
+}
+
+/* Estilização da lista de ingressos */
+.container section ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+/* Estilização dos valores dentro da lista de ingressos */
+.container section ul li span {
+    color: #00F4BF;
+    font-style: italic;
+    font-size: 2rem;
+    padding-left: 1.5rem;
+}

@@ -1,0 +1,26 @@
+/* Reset de margens e paddings para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definição de fonte para títulos */
+h1,
+h2,
+h3 {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+/* Remoção do estilo de lista para elementos <ul> */
+ul {
+    list-style-type: none;
+}
+
+/* Remoção dos botões de incremento/decremento padrão dos inputs numéricos no WebKit */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
