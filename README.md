@@ -1,10 +1,7 @@
 # Exercícios de Lógica de Programação
 
-Este repositório contém os exercícios realizados durante o curso **"Lógica de Programação: Praticando com Desafios"** da Formação **"A partir do zero: Iniciantes em Programação"** oferecida pela Alura.
-
-## Sobre o Curso
-
-O curso "Lógica de Programação: Praticando com Desafios" visa fornecer uma introdução prática aos conceitos fundamentais de lógica de programação, através de diversos exercícios que desafiam o aluno a aplicar os conhecimentos adquiridos.
+Neste repositório, você encontrará uma série de exercícios introdutórios destinados ao estudo dos conceitos fundamentais de lógica de programação, além dos primeiros contatos com HTML, CSS e JavaScript.
+Desenvolvidos na IDE VS Code.
 
 ## Estrutura do Repositório
 
@@ -54,4 +51,4 @@ ste exercício é um sistema de compra de ingressos online, onde os usuários po
 
 ## Créditos
 
-Reprodução de um curso da Alura.
+- Este repositório contém os exercícios presentes no curso **"Lógica de Programação: Praticando com Desafios"** da Formação **"A partir do zero: Iniciantes em Programação"** oferecida pela Alura.
