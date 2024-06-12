@@ -2,8 +2,6 @@
 
 ## Descrição
 Este é um projeto simples de Amigo Secreto desenvolvido em HTML, CSS e JavaScript. Ele permite adicionar amigos, realizar sorteio e reiniciar o processo. 
-Este projeto é uma aula do curso "Lógica de programação: praticando com desafios" da Formação "A partir do zero: iniciante em Programação" da Alura. Desenvolvido para estudar estruturas de programação.
-
 
 ## Estrutura do Projeto
 - `index.html`: Contém a estrutura HTML do projeto, incluindo formulários e elementos visuais.
