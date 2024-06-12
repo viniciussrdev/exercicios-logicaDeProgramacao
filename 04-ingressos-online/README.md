@@ -2,7 +2,6 @@
 
 ## Descrição
 Este exercício é um sistema de compra de ingressos online, onde os usuários podem selecionar o tipo de ingresso, especificar a quantidade desejada e efetuar a compra. O sistema também exibe a quantidade disponível de cada tipo de ingresso. 
-Este projeto é uma aula do curso "Lógica de programação: praticando com desafios" da Formação "A partir do zero: iniciante em Programação" da Alura. Desenvolvido para estudar estruturas de programação.
 
 ## Estrutura do Projeto
 - **index.html**: Estrutura principal da página web.
