@@ -2,7 +2,6 @@
 
 ## Descrição
 Este exercício simula um aluguel de games, AluGames, onde o usuário receberá a indicação visual se um jogo está alugado ou não.
-Este projeto é uma aula do curso "Lógica de programação: praticando com desafios" da Formação "A partir do zero: iniciante em Programação" da Alura. Desenvolvido para estudar lógica de programação.
 
 ## Estrutura do Projeto
 - **index.html**: Estrutura HTML da página.
