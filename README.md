@@ -1,6 +1,7 @@
 # Exercícios de Lógica de Programação
 
 Neste repositório, você encontrará uma série de exercícios introdutórios destinados ao estudo dos conceitos fundamentais de lógica de programação, além dos primeiros contatos com HTML, CSS e JavaScript.
+
 Desenvolvidos na IDE VS Code.
 
 ## Estrutura do Repositório
