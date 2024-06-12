@@ -2,7 +2,6 @@
 
 ## Descrição
 Este exercício é um sorteador de números onde o usuário pode especificar a quantidade de números a serem sorteados e o intervalo de valores. 
-Este projeto é uma aula do curso "Lógica de programação: praticando com desafios" da Formação "A partir do zero: iniciante em Programação" da Alura. Desenvolvido para estudar estruturas de programação.
 
 ## Estrutura do Projeto
 - `index.html`: Estrutura HTML da página.
