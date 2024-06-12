@@ -2,7 +2,6 @@
 
 ## Descrição
 Este exercício é uma aplicação web simples de carrinho de compras, onde é possível adicionar produtos ao carrinho, visualizar a lista de produtos e o valor total da compra, além de limpar o carrinho. 
-Este projeto é uma aula do curso "Lógica de programação: praticando com desafios" da Formação "A partir do zero: iniciante em Programação" da Alura. Desenvolvido para estudar estruturas de programação.
 
 ## Estrutura do Projeto
 - `index.html`: Estrutura HTML da aplicação.
